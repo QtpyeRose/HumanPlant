@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=========================== human crops ==============================-->
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Aspwil_MP_HumanMeatPlant</defName>
+    <label>human meat plant</label>
+    <description>a plant from unknown origins, possibly genetically modified, grows human meat.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.4</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Crops/MeatPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Meat_Human</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6</growDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>Aspwil_MP_HumanLeatherPlant</defName>
+    <label>human leather plant</label>
+    <description>a plant from unknown origins, possibly genetically modified, grows human leather.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Crops/LeatherPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>8</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Leather_Human</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+</Defs>

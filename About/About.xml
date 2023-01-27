@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Human Plants</name>
+	<author>Aspwil</author>
+	<supportedVersions>
+        <li>1.4</li>
+		<li>1.3</li>
+		<li>1.2</li>
+		<li>1.1</li>
+		<li>1.0</li>
+	</supportedVersions>
+	<packageId>Aspwil.HumanPlants</packageId>
+
+	<description>
+	Ever wanted to run your cannibal colony more ethically? 
+	Tired of having to hunt down humans to get your meat and leather?
+	Want to run a literal human leather cowboy hat farm?
+	Well do i have the mod for you!
+
+	This mod adds flesh plants that drop human meat and human leather.
+
+	They are available by default, and require 0 skill to sow.
+
+	The meat plant takes 6 days to grow, and yield 2 meat each.
+
+	The leather plants take 8 days to grow, and yield 4 leather each.
+
+	how do they work??? ehhh, genetic manipulation done by some crazy glitter-tech scientist maybe? who knows.
+
+
+	note:
+	This is my first mod, yay!!! 
+	Thanks to the people of the Rimworld discord for help in learning how to make it,
+	And thanks to the vanilla plants expanded mod, which I ripped apart and learned a lot from.
+	</description>
+</ModMetaData>
