@@ -4,7 +4,7 @@
 	<!--=========================== human crops ==============================-->
 
   <ThingDef ParentName="PlantBase">
-    <defName>Aspwil_MP_HumanMeatPlant</defName>
+    <defName>QTpye_MP_HumanMeatPlant</defName>
     <label>human meat plant</label>
     <description>a plant from unknown origins, possibly genetically modified, grows human meat.</description>
     <statBases>
@@ -37,7 +37,7 @@
   </ThingDef>
   
   <ThingDef ParentName="PlantBase">
-    <defName>Aspwil_MP_HumanLeatherPlant</defName>
+    <defName>QTpye_MP_HumanLeatherPlant</defName>
     <label>human leather plant</label>
     <description>a plant from unknown origins, possibly genetically modified, grows human leather.</description>
     <statBases>

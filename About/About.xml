@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Human Plants</name>
-	<author>Aspwil</author>
+	<author>QTpye</author>
 	<supportedVersions>
 		<li>1.5</li>
         <li>1.4</li>
@@ -10,7 +10,7 @@
 		<li>1.1</li>
 		<li>1.0</li>
 	</supportedVersions>
-	<packageId>Aspwil.HumanPlants</packageId>
+	<packageId>QTpye.HumanPlants</packageId>
 
 	<description>
 	Ever wanted to run your cannibal colony more ethically? 
